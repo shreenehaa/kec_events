@@ -1,0 +1,26 @@
+.form-body{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  select,input,.submit-button{
+    margin-bottom: 10px;
+    width: 60% !important
+  }
+  form{
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*  y axis */
+    align-items:center ;
+     /* height: 100vh;  */
+  }
+  @media only screen and (max-width:600){
+    .form-body{
+      width: 100%;
+    }
+    input,.submit-button{
+      width: 100% !important;
+      margin-bottom: 10px;
+    }
+  }
